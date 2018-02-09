@@ -1,0 +1,6 @@
+com\mycompany\shopeend\CreateCategoryServlet.class
+com\beans\ProductCatalogBean.class
+com\mycompany\shopeend\CategoryServlet.class
+com\mycompany\shopeend\CategoriesServlet.class
+com\mycompany\shopeend\DeleteCategoryServlet.class
+com\model\Category.class
