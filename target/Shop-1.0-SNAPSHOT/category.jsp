@@ -14,7 +14,6 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <!-- TODO --> 
         <table class="tdata">
             <tr>
                 <th colspan="2" width="1%">Категория: <c:out value="${category.name}" /> </th>
@@ -32,5 +31,11 @@
                 <td><c:out value="${category.creationFullDateAsString}" /></td>
             </tr>
         </table>
+            <br>
+        <form action="/Shop/categories" method="post">
+            <tr>
+                <td> <input type="submit" value="Назад"></td>
+            </tr>
+        </form>
     </body>
 </html>

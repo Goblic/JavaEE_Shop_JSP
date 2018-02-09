@@ -37,7 +37,7 @@ public class DeleteCategoryServlet extends HttpServlet {
         //
         catalogBean.deleteCategory(new Category(code));               
         // 
-        response.sendRedirect("/Shop/categories");        
+        response.sendRedirect("/shopeEnd/categories");        
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">

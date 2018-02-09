@@ -39,7 +39,7 @@ public class CreateCategoryServlet extends HttpServlet {
         //
         catalogBean.createCategory(new Category(code, name));               
         // 
-        response.sendRedirect("/Shop/categories");        
+        response.sendRedirect("/shopeEnd/categories");        
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
